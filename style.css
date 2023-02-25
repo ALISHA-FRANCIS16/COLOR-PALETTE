@@ -55,21 +55,24 @@ body {
   position: fixed;
   left: 50%;
   bottom: 40px;
-  color: #fff;
+  color: #51005c;
   cursor: pointer;
   outline: none;
   font-weight: 500;
   font-size: 1.1rem;
   border-radius: 5px;
-  background: #7755ff;
+  background: #c88dff;
   padding: 13px 20px;
-  border: 2px solid #fff;
+  border: 2px solid #51005c;
   transform: translateX(-50%);
   box-shadow: 0 15px 30px rgba(52,87,220,0.2);
   transition: all 0.3s ease;
 }
 .refresh-btn:hover {
   background: #3d3072;
+  border: 2px solid #ffff;
+  color: #ffffff;
+
 }
 @media screen and (max-width: 500px) {
   .container {
